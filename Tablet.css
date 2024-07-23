@@ -1,0 +1,22 @@
+.topnav a {
+  width: 100%;
+}
+.color {
+  border-left: none;
+}
+.color3 {
+  border-right: none;
+}
+.grid-container1 {
+  grid-template-columns: 50% 50%;
+}
+.table {
+  display: block;
+}
+#name {
+  display: none;
+}
+.certification img {
+  width: 75%;
+  height: 75%;
+}

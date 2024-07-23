@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Labtop.css"/>
+    <link rel="stylesheet" href="Mobile.css" media="screen and (max-width: 760.98px)"/>
+    <link rel="stylesheet" href="Tablet.css" media="screen and (min-width: 768px) and (max-width: 991.98px)"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="Assignment3.js"></script>
+    <title>Assignment 3</title>
+  </head>
+  <body>
+    <div class="container">
+      <img
+        class="banner"
+        src="travel-hiking-man-looking-nature-landscape-sunset-panoramic-banner-background-traveling-lifestyle-adventure-concept_106035-983.avif"
+      />
+      <div class="centered name">Phạm Huy Lâm Anh</div>
+      <p class="centered text">Hacker</p>
+    </div>
+    <div class="topnav">
+      <a class="active color" href="#info"
+        ><img src="user.png" width="20" height="20" />Thông tin</a
+      >
+      <a href="#background" class="color1"
+        ><img src="document.png" width="20" height="20"/>Lý lịch</a
+      >
+      <p id="name">Phạm Huy Lâm Anh</p>
+      <a href="#certification" class="color2"
+        ><img src="certificate.png" width="20" height="20" />Chứng chỉ</a
+      >
+      <a class="color3"  href="digital-cv.html"><img src="star.png" width="20" height="20" />Dự án</a>
+    </div>
+
+    <div class="grid-container">
+      <div class="grid-item-1">
+        <h1>Mục tiêu nghề nghiệp</h1>
+        <p>
+          Làm một hacker, cũng là người sửa lỗi phần mềm và tham gia an ninh
+          mạng :D
+        </p>
+      </div>
+      <div class="grid-item-2">
+        <h1 class="info">Thông tin cá nhân</h1>
+        <div id="form">
+          <label for="email">Hãy nhập email:</label>
+          <input required id="email" type="text" name="email" size="30" />
+          <input type="submit" onclick="anotherFunction()" style="color: white; background-color: blue; border-radius: 5px; border: none;"/>
+        </div>
+        <div id="hidden">
+          <p>Ngày sinh:
+          <span>16/8/2010</span></p>
+          <p>Giới tính:
+          <span>Nam</span></p>
+          <p>Số điện thoại:
+          <span>0981612011</span></p>
+          <p>Email:
+          <span>anhphlfx17968@gmail.com</span></p>
+          <p class="address">Địa chỉ:
+          <span>Hà Nội, Việt Nam</span></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="grid-container1">
+      <div>
+        <div id="exp">
+          <h3>Kinh nghiệm</h3>
+          <img src="suitcase.webp" width="50" height="50" />
+        </div>
+        <p><span id="dots">...</span><span id="more">Hiện chưa có</span></p>
+        <button class="button" onclick="myFunction()" id="myBtn">Read more</button>
+      </div>
+      <div>
+        <div id="exp">
+          <h3>Học vấn</h3>
+          <img src="pencil-crayon.png" width="50" height="50"/>
+        </div>
+        <span id="dots1">...</span><span id="more1">
+        <p>Funix</p>
+        <p class="date">
+          2021-<span
+            style="border-radius: 25px; background: #00ffdd; padding: 5px"
+            >Hiện tại</span
+          >
+        </p>
+        <p>Đang học môn WEB101x...</p></span>
+        <button class="button" onclick="myFunction1()" id="myBtn1">Read more</button>
+      </div>
+      <div>
+        <div id="exp">
+        <h3>Hoạt động</h3>
+        <img src="suitcase.webp" width="50" height="50" />
+        </div>
+        <span id="dots2">...</span><span id="more2">
+        <p>CLB Toán</p>
+        <p class="date">2022-2023</p></span>
+        <button class="button" onclick="myFunction2()" id="myBtn2">Read more</button>
+      </div>
+      <div>
+        <div id="exp">
+        <h3>Sở thích</h3>
+        <img src="telescope.png" width="50" height="50" />
+        </div>
+        <span id="dots3">...</span><span id="more3">
+        <table style="width: 30%;">
+        <tr>
+          <td><img src="game.png" width="40" height="40" class="img0" /></td>
+          <td><img src="airplane.png" width="40" height="40" class="img0" /></td>
+          <td><img src="spoon-and-fork.png" width="40" height="40" class="img0" /></td></tr>
+        <tr>
+          <td>Chơi game</td>
+          <td>Du lịch</td>
+          <td>Ẩm thực</td>
+        </tr></table>
+        </span>
+        <button class="button" onclick="myFunction3()" id="myBtn3">Read more</button>
+      </div>
+      <div>
+        <div id="exp">
+        <h3>Ngôn ngữ</h3>
+        <img src="mic.png" width="50" height="50" />
+        </div>
+        <span id="dots4">...</span><span id="more4">
+        <p>Tiếng Anh</p>
+        <span class="level"></span><span class="level"></span></span>
+        <button class="button" onclick="myFunction4()" id="myBtn4">Read more</button>
+      </div>
+      <div>
+        <div id="exp">
+        <h3>Kỹ năng</h3>
+        <img src="tools.png" width="50" height="50" />
+        </div>
+        <span id="dots5">...</span><span id="more5">
+        <p>HTML/CSS: Fundamental</p>
+        <span class="level"></span>
+        <p>Javascript: Fundamental</p>
+        <span class="level"></span>
+        <p>Python: Intermadiate</p>
+        <span class="level"></span><span class="level"></span></span>
+        <button class="button" onclick="myFunction5()" id="myBtn5">Read more</button>
+      </div>
+    </div>
+
+    <div class="certification">
+    <h1>Chứng chỉ - Giải thưởng</h1>
+    <table class="table">
+      <tr class="tr">
+        <th class="border"><img src="FX229955SC_CSI101x_Phạm Huy Lâm Anh.png" width="400px" height="300px" style="margin: 20px 20px 20px 20px;"></th>
+        <td class="border td">
+          CHỨNG CHỈ KHOA HỌC MÁY TÍNH
+        </td>
+        <th class="border border2"><img src="FX227361SC_FUN131x_Phạm Huy Lâm Anh.png" width="400px" height="300px" style="margin: 20px 20px 20px 20px;"></th>
+        <td class="border td">CHỨNG CHỈ CÔNG DÂN SỐ</td>
+      </tr>
+      <tr class="tr">
+        <td class="td"><img src="FX231077SC_SPS101x_Phạm Huy Lâm Anh.png" width="400px" height="300px" style="margin: 20px 20px 20px 20px;"></td>
+        <td>CHỨNG CHỈ PHOTOSHOP</td>
+      </tr>
+    </table></div>
+
+    <h1>Dự án</h1>
+    <div class="flex-container">
+      <div>
+        <img src="CV ca nhan.png" height="500px" width="100%" class="detail" />
+        <h4>CV CÁ NHÂN</h4>
+        <hr width="100%" size="2" />
+        <p>
+          <span style="border-radius: 25px; background: #00ffdd; padding: 5px"
+            >2024</span
+          ><img src="user.png" height="20px" width="20px" />FUNiX<img
+            src="bulb.png"
+            height="20px"
+            width="20px"
+          />Developer
+        </p>
+        <hr width="100%" size="2" />
+        <table>
+          <tr>
+            <td class="border">Mô tả</td>
+            <td class="border">
+              Trang Web CV cá nhân online. Gồm các thông tin cá nhân cũng như kĩ
+              năng nghề nghiệp.
+            </td>
+          </tr>
+          <tr>
+            <td class="border">Nhiệm vụ</td>
+            <td class="border">- Phát triển code - Review code - Tối ưu code - Xỷ lý lỗi</td>
+          </tr>
+          <tr>
+            <td>Công nghệ</td>
+            <td>- HTML, CSS</td>
+          </tr>
+        </table>
+      </div>
+      <div>
+        <img src="đồ ăn.png" height="500px" width="100%" class="detail" />
+        <h4>Ẩm thực của béo</h4>
+        <hr width="100%" size="2" />
+        <p>
+          <span style="border-radius: 25px; background: #00ffdd; padding: 5px"
+            >2020</span
+          ><img src="user.png" height="20px" width="20px" />FUNiX<img
+            src="bulb.png"
+            height="20px"
+            width="20px"
+          />Developer
+        </p>
+        <hr width="100%" size="2" />
+        <table>
+          <tr>
+            <td class="border">Mô tả</td>
+            <td class="border">
+              Trang Web về đồ ăn ở Việt Nam.
+            </td>
+          </tr>
+          <tr>
+            <td class="border">Nhiệm vụ</td>
+            <td class="border">- Phát triển code - Review code - Tối ưu code - Xỷ lý lỗi</td>
+          </tr>
+          <tr>
+            <td>Công nghệ</td>
+            <td>- HTML, CSS</td>
+          </tr>
+        </table>
+      </div>
+      <div>
+        <img src="gameweb.png" height="500px" width="100%" class="detail" />
+        <h4>Game</h4>
+        <hr width="100%" size="2" />
+        <p>
+          <span style="border-radius: 25px; background: #00ffdd; padding: 5px"
+            >2020</span
+          ><img src="user.png" height="20px" width="20px" />FUNiX<img
+            src="bulb.png"
+            height="20px"
+            width="20px"
+          />Developer
+        </p>
+        <hr width="100%" size="2" />
+        <table>
+          <tr>
+            <td class="border">Mô tả</td>
+            <td class="border">
+              Trang Web về các trò chơi được tạo ra.
+            </td>
+          </tr>
+          <tr>
+            <td class="border">Nhiệm vụ</td>
+            <td class="border">- Phát triển code - Review code - Tối ưu code - Xỷ lý lỗi</td>
+          </tr>
+          <tr>
+            <td>Công nghệ</td>
+            <td>- HTML, CSS</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+    <ul class="contact">
+      <li><a href="https://www.facebook.com"
+        ><img src="facebook.png" width="20" height="20" />Facebook</a
+      ></li>
+      <li><a href="https://www.linkedin.com/"
+        ><img src="linkedin.png" width="20" height="20" />Linkedin</a
+      ></li>  
+      <li><a href="https://github.com/"
+        ><img src="github.png" width="20" height="20" />Github</a
+      ></li>
+    </ul>
+    </div>
+  </body>
+</html>

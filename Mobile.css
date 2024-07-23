@@ -1,0 +1,58 @@
+html,
+body {
+  overflow-x: hidden;
+}
+.name {
+  font-size: 20px;
+}
+#name {
+  display: none;
+}
+.topnav a {
+  width: 100%;
+}
+.flex-container {
+  flex-direction: column;
+}
+.border2 {
+  border: none;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 100%;
+}
+.grid-container1 {
+  grid-template-columns: auto;
+}
+.table {
+  display: block;
+}
+
+.tr > .td {
+  display: block;
+}
+
+.tr {
+  display: block;
+}
+
+.detail {
+  width: 100%;
+  object-fit: cover;
+  object-position: bottom;
+}
+.topnav {
+  flex-direction: column;
+  height: 160px;
+}
+.color,
+.color1,
+.color2,
+.color3 {
+  border: none;
+}
+.certification img {
+  height: 75%;
+  width: 75%;
+}
