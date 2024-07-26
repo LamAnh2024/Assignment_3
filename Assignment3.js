@@ -94,6 +94,18 @@ function myFunction5() {
   }
 }
 
-function anotherFunction() {
-  document.getElementById("hidden").style.display = "block";
-}
+document.addEventListener("DOMContentLoaded", function () {
+  document
+    .getElementById("emailForm")
+    .addEventListener("submit", function (event) {
+      event.preventDefault(); // Ngăn chặn việc gửi form
+
+      var emailInput = document.getElementById("email").value.trim();
+      if (emailInput) {
+        document.getElementById("info").style.display = "block"; // Hiển thị thông tin cá nhân
+        document.getElementById("emailForm").style.display = "none"; // Ẩn form
+      } else {
+        alert("Vui lòng nhập email để tiếp tục.");
+      }
+    });
+});
